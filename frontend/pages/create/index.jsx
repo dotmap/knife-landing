@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import Link from 'next/link'
-import Header from '../../components/header'
+import NavBar from '../../components/navbar'
 import { string, bool } from 'prop-types'
 
 class CreatePage extends Component {
@@ -20,7 +20,7 @@ class CreatePage extends Component {
   render () {
     return (
       <main>
-        <Header />
+        <NavBar />
         <section>
           <p>
             This is another page of the SSR example, you accessed it
