@@ -1,9 +1,9 @@
 import { Component } from 'react'
 import Link from 'next/link'
 import Header from '../../components/header'
-import PropTypes from 'prop-types'
+import { string, bool } from 'prop-types'
 
-class AboutPage extends Component {
+class CreatePage extends Component {
   static getInitialProps ({ req }) {
     const isServer = typeof window === 'undefined'
     let hostname
@@ -40,9 +40,9 @@ class AboutPage extends Component {
   }
 }
 
-AboutPage.propTypes = {
-  hostname: PropTypes.string,
-  isServer: PropTypes.bool
+CreatePage.propTypes = {
+  hostname: string,
+  isServer: bool
 }
 
-export default AboutPage
+export default CreatePage
