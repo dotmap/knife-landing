@@ -1,10 +1,16 @@
 module.exports = {
   env: {
     production: {
-      plugins: ['next/babel', 'emotion']
+      presets: ['next/babel'],
+      plugins: ['emotion']
     },
     development: {
-      plugins: [['next/babel', 'emotion', { sourceMap: true }]]
+      presets: ['next/babel'],
+      plugins: [['emotion', { sourceMap: true }]]
+    },
+    test: {
+      presets: ['next/babel'],
+      plugins: ['emotion']
     }
   }
 }
