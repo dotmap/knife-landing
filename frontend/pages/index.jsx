@@ -7,7 +7,7 @@ const HomePage = () => (
     <NavBar />
     <section>
       <Text fontFamily='mono'>Spread your game jam</Text>
-      <Heading fontFamily='sans'>Run your event with Knife</Heading>
+      <Heading fontFamily='inter'>Run your event with Knife</Heading>
     </section>
   </main>
 )
