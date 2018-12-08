@@ -1,13 +1,13 @@
-import Link from 'next/link'
-import Header from '../components/header'
+import { Text, Heading } from '@rebass/emotion'
+
+import NavBar from '../components/navbar'
 
 const HomePage = () => (
   <main>
-    <Header />
+    <NavBar />
     <section>
-      <Link href='/create'>
-        <a>Create an event</a>
-      </Link>
+      <Text fontFamily='mono'>Spread your game jam</Text>
+      <Heading fontFamily='sans'>Run your event with Knife</Heading>
     </section>
   </main>
 )
