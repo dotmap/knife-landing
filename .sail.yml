@@ -1,0 +1,73 @@
+frontend_only: &frontend
+  paths:
+    - 'frontend/**/*'
+
+backend_only: &backend
+  paths:
+    - 'backend/**/*'
+
+tasks:
+  install:
+    image: node:8
+    command:
+      - yarn
+    args:
+      - install
+  test:
+    image: node:8
+    command:
+      - yarn
+    args:
+      - test
+  lint:
+    image: node:8
+    command:
+      - yarn
+    args:
+      - lint
+  # lint_frontend:
+  #   image: node:8
+  #   command:
+  #     - yarn
+  #   args:
+  #     - lint:frontend
+  #   when: *frontend
+  # lint_backend:
+  #   image: node:8
+  #   command:
+  #     - yarn
+  #   args:
+  #     - lint:backend
+  #   when: *backend
+  # build_frontend:
+  #   image: node:8
+  #   command:
+  #     - yarn
+  #   args:
+  #     - build:frontend
+  #   when: *frontend
+  # test_frontend:
+  #   image: node:8
+  #   command:
+  #     - yarn
+  #   args:
+  #     - test:frontend
+  #   when: *frontend
+  # test_backend:
+  #   image: node:8
+  #   command:
+  #     - yarn
+  #   args:
+  #     - test:backend
+  #   when: *backend
+
+workflow:
+  - install
+  - test
+  - lint
+  # - sail:parallel:
+  #     - build_frontend
+  #     - lint_frontend
+  #     - test_frontend
+  #     - lint_backend
+  #     - test_backend

@@ -1,0 +1,15 @@
+*.mdx
+*.spec.*
+.eslintrc
+.prettierrc
+.lintstagedrc
+LICENSE
+*.md
+.sail.yml
+coverage
+.next
+node_modules
+babel.config.js
+jest.setup.js
+/package.json
+/yarn.lock

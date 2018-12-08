@@ -1,0 +1,8 @@
+{
+  "**/*.js": [
+    "prettier-eslint --write --config ./.prettierrc --eslint-config-path ./.eslintrc",
+    "eslint --fix",
+    "git add"
+  ],
+  "**/*.{mdx,md,yml,yaml,json}": ["prettier-eslint --write --config ./prettierrc", "git add"]
+}

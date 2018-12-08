@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page matches snapshot 1`] = `
+<main>
+  <header>
+    <h1>
+      Next.js Example
+    </h1>
+  </header>
+  <section>
+    <p>
+      This is another page of the SSR example, you accessed it
+       
+      <strong>
+        client
+         side
+      </strong>
+      .
+      <p>
+        <p>
+          Client: 
+        </p>
+      </p>
+    </p>
+    <p>
+      You can reload to see how the page change.
+    </p>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Go to Home
+    </a>
+  </section>
+</main>
+`;
