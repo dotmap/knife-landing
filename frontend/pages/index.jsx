@@ -41,7 +41,7 @@ class HomePage extends Component {
             {this.props.hostname}
             {this.props.greeting}
           </p>
-          <Link href='/about'>
+          <Link href='/create'>
             <a>Go to About Me</a>
           </Link>
         </section>
