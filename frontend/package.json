@@ -7,6 +7,9 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
+    "@rebass/emotion": "^3.0.0",
     "cross-fetch": "^2.2.3",
     "next": "^7.0.2",
     "prop-types": "^15.6.2",
