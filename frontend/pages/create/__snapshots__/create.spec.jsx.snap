@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page matches snapshot 1`] = `
+<main
+  className="css-mwvtx2"
+  style={
+    Object {
+      "height": "calc(100vh - 20px)",
+    }
+  }
+>
+  <nav
+    className="css-1ph70be"
+  >
+    <div
+      className="css-e6ghfl"
+      width={0.3333333333333333}
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <h2
+          className="css-v7ub3k"
+          fontFamily="sans"
+          fontSize={4}
+          fontWeight="bold"
+        >
+          knife
+        </h2>
+      </a>
+    </div>
+    <div
+      className="css-1cw4iel"
+      width={0.6666666666666666}
+    >
+      <a>
+        <button
+          className="css-1uifvfx"
+          color="black"
+          fontSize="inherit"
+          fontWeight="bold"
+        >
+          <div
+            className="css-1tyko7w"
+            fontFamily="sans"
+          >
+            Sign In
+          </div>
+        </button>
+      </a>
+    </div>
+  </nav>
+  <div
+    className="css-hg7ow6"
+    width={1}
+  >
+    <div
+      className="css-168mobm"
+      width={
+        Array [
+          1,
+          null,
+          0.6666666666666666,
+          0.5,
+        ]
+      }
+    >
+      <h2
+        className="css-1fou44i"
+        fontFamily="sans"
+        fontSize={
+          Array [
+            30,
+            50,
+          ]
+        }
+        fontWeight="bold"
+      >
+        Event creation is coming soon.
+      </h2>
+      <div
+        className="css-1cl79yq"
+        fontFamily="serif"
+      >
+        Keep up with our progress through our newsletter and be one of the first to know when you can use Knife:
+      </div>
+      <div
+        className="css-431qa7"
+      >
+        <input
+          className="css-19no32u-Input ee3bst00"
+          placeholder="awesome.name@your.email"
+          type="email"
+        />
+        <button
+          className="css-1jdzszd"
+          color="black"
+          fontSize="inherit"
+          fontWeight="bold"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;
