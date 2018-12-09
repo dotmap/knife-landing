@@ -11,14 +11,11 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
-          <link
-            href='https://fonts.googleapis.com/css?family=Overpass|Overpass+Mono'
-            rel='stylesheet'
-          />
+          <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet' />
           <link href='https://rsms.me/inter/inter-ui.css' rel='stylesheet' />
           <style>{`body { margin: 0 }`}</style>
         </Head>
-        <body className='custom_class'>
+        <body>
           <Main />
           <NextScript />
         </body>

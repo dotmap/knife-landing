@@ -1,7 +1,7 @@
 export default {
+  breakpoints: ['425px', '768px', '1024px'],
   fonts: {
-    sans: 'Overpass, sans-serif',
-    inter: 'Inter UI, sans-serif',
-    mono: 'Overpass Mono, monospace'
+    sans: 'Inter UI, sans-serif',
+    serif: 'Spectral, serif'
   }
 }
