@@ -19,8 +19,8 @@ exports[`NavBar component matches snapshot 1`] = `
       }
     >
       <h2
-        className="css-esj6bp"
-        fontFamily="inter"
+        className="css-v7ub3k"
+        fontFamily="sans"
         fontSize={4}
         fontWeight="bold"
       >
@@ -40,8 +40,8 @@ exports[`NavBar component matches snapshot 1`] = `
         fontWeight="bold"
       >
         <div
-          className="css-4pml4y"
-          fontFamily="inter"
+          className="css-1tyko7w"
+          fontFamily="sans"
         >
           Sign In
         </div>
