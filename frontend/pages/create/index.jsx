@@ -58,7 +58,7 @@ class CreatePage extends Component {
             <Heading fontFamily='sans' mb={3} fontSize={[30, 50]} lineHeight={[1, 0.98]}>
               Event creation is coming soon.
             </Heading>
-            <Text fontFamily='serif'>
+            <Text fontFamily='serif' m={['', 4]}>
               Keep up with our progress through our newsletter and be one of the first to know when
               you can use Knife:
             </Text>
