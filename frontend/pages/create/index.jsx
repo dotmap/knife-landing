@@ -1,27 +1,8 @@
 import { Component } from 'react'
 // import { string } from 'prop-types'
-import styled from '@emotion/styled'
 import { Flex, Card, Heading, Text, Button } from '@rebass/emotion'
 
-import NavBar from '../../components/navbar'
-
-const Input = styled.input`
-  border: 3px solid black;
-  border-radius: 5px;
-  font-family: 'Inter UI', sans-serif;
-  font-weight: 500;
-  padding: 5px;
-  text-align: center;
-  font-size: 14px;
-  margin-bottom: 8px;
-  height: 2em;
-
-  @media screen and (min-width: 425px) {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0;
-  }
-`
+import Input from '../../components/input'
 
 class CreatePage extends Component {
   static getInitialProps ({ req }) {
@@ -38,17 +19,10 @@ class CreatePage extends Component {
 
   render () {
     return (
-      <Card
-        as='main'
-        bg='white'
-        m={'10px'}
-        style={{ height: 'calc(100vh - 20px)' }}
-        boxShadow='0 2px 16px rgba(0, 0, 0, 0.25)'
-      >
-        <NavBar />
+      <main>
         <Flex width={1} justifyContent='center' alignItems='center'>
           <Card
-            mt={3}
+            m={3}
             width={[1, null, 2 / 3, 1 / 2]}
             // border={[null, null, '1px solid black']}
             p={[3, 4, 5]}
@@ -59,8 +33,7 @@ class CreatePage extends Component {
               Event creation is coming soon.
             </Heading>
             <Text fontFamily='serif' m={['', 4]}>
-              Keep up with our progress through our newsletter and be one of the first to know when
-              you can use Knife:
+              Sign up for our newsletter to stay up-to-date on our progress:
             </Text>
             <Flex flexDirection={['column', 'row']} justifyContent='center' mt={4}>
               <Input type='email' placeholder='awesome.name@your.email' />
@@ -70,7 +43,7 @@ class CreatePage extends Component {
             </Flex>
           </Card>
         </Flex>
-      </Card>
+      </main>
     )
   }
 }
