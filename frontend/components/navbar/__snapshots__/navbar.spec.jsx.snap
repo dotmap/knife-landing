@@ -2,7 +2,7 @@
 
 exports[`NavBar component matches snapshot 1`] = `
 <nav
-  className="css-y2pm3j"
+  className="css-1ph70be"
 >
   <div
     className="css-e6ghfl"
@@ -19,8 +19,8 @@ exports[`NavBar component matches snapshot 1`] = `
       }
     >
       <h2
-        className="css-16auzvq"
-        fontFamily="mono"
+        className="css-esj6bp"
+        fontFamily="inter"
         fontSize={4}
         fontWeight="bold"
       >
@@ -32,27 +32,19 @@ exports[`NavBar component matches snapshot 1`] = `
     className="css-1cw4iel"
     width={0.6666666666666666}
   >
-    <a
-      href="/create"
-      onClick={[Function]}
-    >
-      <button
-        className="css-11yjq6p"
-        color="black"
-        fontSize="inherit"
-        fontWeight="bold"
-      >
-        Create Your Event
-      </button>
-    </a>
     <a>
       <button
-        className="css-z22o3p"
+        className="css-1uifvfx"
         color="black"
         fontSize="inherit"
         fontWeight="bold"
       >
-        Sign In
+        <div
+          className="css-4pml4y"
+          fontFamily="inter"
+        >
+          Sign In
+        </div>
       </button>
     </a>
   </div>
