@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page matches snapshot 1`] = `
+<main>
+  <div
+    className="css-hg7ow6"
+    width={1}
+  >
+    <div
+      className="css-ubbhdj"
+      width={
+        Array [
+          1,
+          null,
+          0.6666666666666666,
+          0.5,
+        ]
+      }
+    >
+      <h2
+        className="css-1fou44i"
+        fontFamily="sans"
+        fontSize={
+          Array [
+            30,
+            50,
+          ]
+        }
+        fontWeight="bold"
+      >
+        Event creation is coming soon.
+      </h2>
+      <div
+        className="css-40lsg9"
+        fontFamily="serif"
+      >
+        Sign up for our newsletter to stay up-to-date on our progress:
+      </div>
+      <div
+        className="css-431qa7"
+      >
+        <input
+          className="css-19no32u-Input e18zfg970"
+          placeholder="awesome.name@your.email"
+          type="email"
+        />
+        <button
+          className="css-1jdzszd"
+          color="black"
+          fontSize="inherit"
+          fontWeight="bold"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;

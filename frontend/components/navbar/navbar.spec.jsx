@@ -3,11 +3,11 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import AboutPage from '.'
+import NavBar from '.'
 
-describe('About page', () => {
+describe('NavBar component', () => {
   it('matches snapshot', () => {
-    const component = renderer.create(<AboutPage />)
+    const component = renderer.create(<NavBar />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })

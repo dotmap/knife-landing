@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component matches snapshot 1`] = `
+<nav
+  className="css-1ph70be"
+>
+  <div
+    className="css-e6ghfl"
+    width={0.3333333333333333}
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+    >
+      <h2
+        className="css-v7ub3k"
+        fontFamily="sans"
+        fontSize={4}
+        fontWeight="bold"
+      >
+        knife
+      </h2>
+    </a>
+  </div>
+  <div
+    className="css-1cw4iel"
+    width={0.6666666666666666}
+  >
+    <a>
+      <button
+        className="css-1uifvfx"
+        color="black"
+        fontSize="inherit"
+        fontWeight="bold"
+      >
+        <div
+          className="css-1tyko7w"
+          fontFamily="sans"
+        >
+          Sign In
+        </div>
+      </button>
+    </a>
+  </div>
+</nav>
+`;
