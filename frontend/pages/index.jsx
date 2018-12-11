@@ -1,13 +1,9 @@
 /* @jsx jsx */
-import { Text, Heading, Card, Flex, Button, Box } from '@rebass/emotion'
+import { Text, Heading, Card, Flex, Button, Box, Image } from '@rebass/emotion'
 import { jsx } from '@emotion/core'
 
-import Input from '../components/input'
-
-// import image from '../assets/duotone.png'
-
 const HomePage = () => (
-  <Box as='main' p={4}>
+  <Box as='main' px={4} pb={4}>
     <Flex flexDirection={['column', null, 'row']}>
       <Box width={[1, null, 1 / 2]} mx={[null, null, 2, 5]}>
         <Heading fontFamily='sans' fontSize={[5]} my={4}>
@@ -53,6 +49,7 @@ const HomePage = () => (
         </Card>
       </Flex>
     </Flex>
+    <Image mt={4} src='../static/screenshots.png' />
   </Box>
 )
 
