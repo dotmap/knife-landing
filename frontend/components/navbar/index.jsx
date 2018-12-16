@@ -12,7 +12,7 @@ export default () => (
     </Flex>
     <Flex width={2 / 3} justifyContent='flex-end'>
       <a>
-        <Button bg='white' color='black' border='3px solid black'>
+        <Button bg='white' color='black' border={'three'}>
           <Text fontFamily='sans'>Sign In</Text>
         </Button>
       </a>

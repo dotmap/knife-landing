@@ -3,5 +3,8 @@ export default {
   fonts: {
     sans: 'Inter UI, sans-serif',
     serif: 'Spectral, serif'
+  },
+  borders: {
+    three: '3px solid black'
   }
 }

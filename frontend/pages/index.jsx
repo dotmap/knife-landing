@@ -31,8 +31,8 @@ const HomePage = () => (
               as='input'
               type='email'
               placeholder='awesome.name@your.email'
-              border='3px solid black'
-              borderRadius={5}
+              border={'three'}
+              borderRadius={4}
               mb={2}
               fontSize={14}
               p={2}
