@@ -42,7 +42,7 @@ const HomePage = () => (
                 textAlign: 'center'
               }}
             />
-            <Button bg='mediumspringgreen' color='black' border='3px solid black'>
+            <Button bg='green' color='black' border='3px solid black'>
               Sign Up
             </Button>
           </Flex>
