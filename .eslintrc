@@ -1,6 +1,8 @@
 {
+  "parser": "babel-eslint",
   "extends": ["standard", "standard-react"],
   "rules": {
-    "react/react-in-jsx-scope": "disable"
+    "react/react-in-jsx-scope": "disable",
+    "no-unused-vars": ["error", { "varsIgnorePattern": "^jsx$" }]
   }
 }
