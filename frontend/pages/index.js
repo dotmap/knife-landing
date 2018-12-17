@@ -31,8 +31,8 @@ const HomePage = () => (
               as='input'
               type='email'
               placeholder='awesome.name@your.email'
-              border='3px solid black'
-              borderRadius={5}
+              border={'three'}
+              borderRadius={4}
               mb={2}
               fontSize={14}
               p={2}
@@ -42,7 +42,7 @@ const HomePage = () => (
                 textAlign: 'center'
               }}
             />
-            <Button bg='mediumspringgreen' color='black' border='3px solid black'>
+            <Button bg='green' color='black' border='3px solid black'>
               Sign Up
             </Button>
           </Flex>
