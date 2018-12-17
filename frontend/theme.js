@@ -3,7 +3,8 @@ export default {
   colors: {
     green: 'rgb(0, 255, 162)',
     pink: 'rgb(255, 0, 168)',
-    blue: 'rgb(0, 71, 255)'
+    blue: 'rgb(0, 71, 255)',
+    black: 'rgb(0, 0, 0)'
   },
   fonts: {
     sans: 'Inter UI, sans-serif',
