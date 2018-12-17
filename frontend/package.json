@@ -18,6 +18,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-pose": "^4.0.4",
     "sillyname": "^0.1.0",
     "yup": "^0.26.6"
   }
